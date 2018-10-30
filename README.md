@@ -1,7 +1,7 @@
 # Mic.ro front-end UX
 
-Example can be seen at
-[Mic.ro](https://micro-ux.herokuapp.com/)
+Working example can be seen
+[here](https://micro-ux.herokuapp.com/).
 *Note that Heroku takes a bit to warm up as it likes to sleep most of the time.*
 
 ## Overview
