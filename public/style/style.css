@@ -1,0 +1,14 @@
+.clipBoardIcon {
+  background:url(./clipBoard.png) no-repeat;
+  cursor:pointer;
+  border:none;
+  width:20px;
+  height:20px;
+}
+.clipBoardIcon:active {
+  filter:hue-rotate(90deg);
+}
+
+.input-group {
+  margin: 20px 0px;
+}
