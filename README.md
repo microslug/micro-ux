@@ -6,13 +6,13 @@ Working example can be seen
 
 ## Overview
 
-This is the interface and the main entry point for this URL shortening service.
+This is the interface and the main entry point for the URL shortening service.
 
 ## Design
 
 Build using React, this interface communicates with the the micro-api backend.
 It allows the user to enter any valid url then returns a shorted version (slug).
-Valid user input is URL encoded then sent as a POST request to [micro-api](https://github.com/microslug/micro-api)
+Valid user input is URL encoded then sent as a POST request to [micro-api](https://github.com/microslug/micro-api).
 Redux is used to keep state of the application and present a user with links
 and option to copy links to clipboard.
 
