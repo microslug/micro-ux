@@ -23,3 +23,10 @@ git clone https://github.com/microslug/micro-ux.git
 npm install
 npm start
 ```
+
+By default this app will try to connect to the local instance of [micro-api](https://github.com/microslug/micro-api)
+If you like to test against the Heroku instance you can change it in the .env file.
+```
+REACT_APP_API_HOST=https://micro-api.herokuapp.com
+#REACT_APP_API_HOST=http://microapi:8888
+```
