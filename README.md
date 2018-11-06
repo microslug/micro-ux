@@ -1,7 +1,10 @@
 # Mic.ro front-end UX
 
-Working example can be seen
-[here](https://micro-ux.herokuapp.com/).
+Added a new version that is running on a Kubernetes cluster [here](http://178.128.132.119/).
+The cluster can autoscale and currently is running 3 UX pods, 3 API pods with a master and slave Redis DB.
+With the addition of UI enhancements, SSL certificate and a domain name this could be production ready.
+
+Previus example running on Heroku is [here](https://micro-ux.herokuapp.com/).
 *Note that Heroku takes a bit to warm up as it likes to sleep most of the time.*
 
 ## Overview
