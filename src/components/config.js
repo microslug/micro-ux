@@ -4,6 +4,7 @@ const GetConfig = () => {
   const configObj = {};
   if (process.env.REACT_APP_API_HOST) {
     configObj.API_URL = process.env.REACT_APP_API_HOST + process.env.REACT_APP_API_PATH;
+    configObj.API_SIZE = process.env.REACT_APP_API_HOST + process.env.REACT_APP_API_SIZE;
     configObj.HOST = process.env.REACT_APP_API_HOST;
   } else {
     configObj.API_URL = "Api not specified!"
