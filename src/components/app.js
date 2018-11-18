@@ -13,7 +13,9 @@ export default class App extends Component {
   componentDidMount() {
     axios.get(`${Config.API_SIZE}`)
       .then(res => {
-        this.setState({slugs: res.data.NumberOfSlugs});
+        console.log(res.data);
+        const slugs = res.data.NumberOfSlugs || 0;
+        this.setState({slugs: slugs});
       });
   }
 
